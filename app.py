@@ -3,14 +3,14 @@ from fastapi import FastAPI
 import pickle
 import pandas as pd
 import numpy as np
-import os
-#import seaborn as sns
+import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from geopy.geocoders import Nominatim
 import random
+import os
 from sklearn.metrics import r2_score
 
 app = FastAPI()
