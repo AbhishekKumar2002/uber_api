@@ -82,6 +82,6 @@ async def read_item(pickup_location, dropoff_location):
 
 if __name__ == "__main__":
      # Use the port provided by Render
-    port = int(os.environ.get("PORT", 8000))
+    port = int(os.environ.get("PORT", 10000))
     # Listen on all network interfaces
     uvicorn.run(app, host="0.0.0.0", port=port)
